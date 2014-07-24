@@ -395,9 +395,7 @@ class acf_field_address_map extends acf_field {
 		}
 		
 		$output['name'] = $value['name'];
-		
-		$output['test'] = 'test';
-				
+						
 		$line2 = ($value['address']['line_2']) ? ', ' . $value['address']['line_2'] : '';
 		
 		$output['formatted_address'] = '<div itemscope itemtype="http://schema.org/PostalAddress">
