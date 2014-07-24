@@ -1,0 +1,138 @@
+
+/*--------------------------------------------------------------------------
+*
+*	Field: Location
+*	
+*-------------------------------------------------------------------------*/
+
+.acf-address-map {
+	position: relative;
+	border: #DFDFDF solid 1px;
+	background: #fff;
+}
+
+.acf-address-map .title {
+	position: relative;
+	border-bottom: #DFDFDF solid 1px;
+}
+
+.acf-address-map .has-value { display: none; }
+.acf-address-map .no-value { display: block; }
+
+.acf-address-map.active .has-value { display: block; }
+.acf-address-map.active .no-value { display: none; }
+
+.acf-address-map .title h4,
+.acf-address-map .title input[type="text"] {
+	margin: 0;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 10px;
+	border: 0 none;
+	box-shadow: none;
+	border-radius: 0;
+	font-family: inherit;
+	cursor: text;
+}
+
+.acf-address-map .title input[type="text"] {
+	height: 36px;
+	line-height: normal;
+}
+
+.acf-address-map .title .search {
+	height: auto;
+	border: 0 none;
+}
+
+.acf-address-map .acf-sprite-remove,
+.acf-address-map .acf-sprite-locate {
+	right: 7px;
+	top: 7px;
+	position: absolute;
+}
+
+.acf-address-map .acf-sprite-remove {
+	background-position: -71px -221px;
+	height: 9px;
+	width: 9px;
+	border: 6px solid transparent;
+}
+.acf-address-map .acf-sprite-remove:hover { background-position: -71px -271px; }
+
+.acf-address-map .acf-sprite-locate {
+	background-position: -50px -300px;
+	width: 13px;
+	height: 13px;
+	border: 5px solid transparent;
+}
+.acf-address-map .acf-sprite-locate:hover { background-position: -50px -350px; }
+
+.acf-address-map .address {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	border-right: #DFDFDF solid 1px;
+	height: 460px;
+}
+
+.acf-address-map .address table {
+	margin: 15px auto;
+}
+
+.acf-address-map .address td {
+	text-align: center;
+}
+
+.acf-address-map .address td:first-child {
+	text-align: left;
+}
+
+.acf-address-map .address .location td input {
+	display: inline-block;
+	width: 49%;
+	pointer-events: none !important;
+	background: #e4e4e4;
+}
+
+.acf-address-map .canvas {
+	height: 440px;
+	width: 49%;
+	display: inline-block;
+	margin-left: 0.5%;
+	margin-top: 10px;
+}
+
+.pac-container {
+	margin-left: -1px;
+	margin-top: -1px;
+	padding: 5px 0;
+	border-color: #DFDFDF;
+}
+
+.pac-container:after {
+	display: none;
+}
+
+.pac-container .pac-item {
+	padding: 5px;
+	margin: 0 5px;
+}
+
+.acf-address-map .dashicons span {
+	display: none;
+}
+
+.acf-address-map .has-value .dashicons {
+	right: 30px;
+	top: 9px;
+	position: absolute;
+	font-size: 16px;
+}
+
+input[type="url"] {
+	width: 100%;
+	padding: 5px;
+	resize: none;
+	margin: 0;
+}
