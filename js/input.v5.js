@@ -210,7 +210,7 @@
 					$el.find('.state').val(addressFinal.state);
 					$el.find('.country').val(addressFinal.country);
 					$el.find('.zip').val(addressFinal.zip);
-					$el.find('.latitude').val(place.geometry.location.k);
+					$el.find('.latitude').val(place.geometry.location.F);
 					$el.find('.longitude').val(place.geometry.location.A);					
 					$el.find('input.google-map').val(place.url);
 					
