@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: ACF Address Map
 Plugin URI: http://www.chrisgoddard.me
 Description: Full Address field with geo-coded map. Compatible ACF 4 & 5
-Version: 1.0.3
+Version: 1.0.4
 Author: Chris Goddard
 Author URI: www.chrisgoddard.me
 License: GPLv2 or later
