@@ -617,5 +617,8 @@
 
 	});
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 })(jQuery);
