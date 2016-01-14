@@ -43,7 +43,7 @@ class acf_field_address_map extends acf_field {
 		*  defaults (array) Array of default settings which are merged into the field object. These are used later in settings
 		*/
 		
-		$this->defaults = array(
+		$this->default_values = array(
 			'center_lat'	=> '47.6256211',
 			'center_lng'	=> '-122.3529964',
 			'zoom'			=> '14'
