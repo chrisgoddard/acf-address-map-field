@@ -1,6 +1,8 @@
 Advanced Custom Fields: Address/Map Field
 =====================
 
+*Please Note: I don't actively maintain this plugin*
+
 I wanted a better map field for ACF - the native Google Map field only returns a single string for the name, which makes display and schema harder.
 
 This field uses the same search functionality for the map, but will then populate name, phone, website, email, address (line 1/2), City, State, Zip, Country, Lat/Long, and Google Map url.
