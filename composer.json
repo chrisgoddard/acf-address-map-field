@@ -1,6 +1,6 @@
 {
     "name": "chrisgoddard/acf-address-map-field",
-    "description": "Advanced Custom Fields plugin: Address/Map Field",
+    "description": "Full Address field with geo-coded map. Compatible ACF 4 & 5",
     "keywords": ["wordpress", "plugin"],
     "type": "wordpress-plugin",
     "homepage": "https://github.com/chrisgoddard/acf-address-map-field",
